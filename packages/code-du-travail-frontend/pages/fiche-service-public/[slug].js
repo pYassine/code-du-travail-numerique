@@ -44,7 +44,7 @@ class Fiche extends React.Component {
       relatedItems
     } = data;
     return (
-      <Layout>
+      <Layout title={title}>
         <Metas
           url={pageUrl}
           title={title}
