@@ -7,6 +7,8 @@ import { icons, theme } from "@socialgouv/react-ui";
 import { StepList, STEP_LIST_WIDTH } from "./StepList";
 import { PrevNextBar } from "./PrevNextBar";
 
+const anchorRef = React.createRef();
+
 function Wizard({
   initialState,
   initialValues = {},
@@ -22,8 +24,10 @@ function Wizard({
     dispatch({ type: "setStepIndex", payload: index });
 
   useEffect(() => {
-    if (window) {
-      window.scrollTo(0, 0);
+    const node = anchorRef.current;
+    if (node) {
+      node.scrollIntoView();
+      node.focus();
     }
   });
 
@@ -105,7 +109,11 @@ function Wizard({
                 )}
                 {title}
               </ToolTitle>
-              <StepList activeIndex={stepIndex} items={stepItems} />
+              <StepList
+                activeIndex={stepIndex}
+                items={stepItems}
+                anchorRef={anchorRef}
+              />
               <StepWrapper>
                 <Step form={form} dispatch={dispatch} />
               </StepWrapper>

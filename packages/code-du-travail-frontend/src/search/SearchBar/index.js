@@ -24,6 +24,8 @@ const SearchBar = ({ hasFocus = false, inputId, hasButton = false }) => {
   const onFormSubmit = e => {
     e.preventDefault();
     if (query) {
+      window.scrollTo(0, 0);
+      document.body.focus();
       router.push({
         pathname: "/recherche",
         query: {
@@ -42,6 +44,8 @@ const SearchBar = ({ hasFocus = false, inputId, hasButton = false }) => {
     event.preventDefault();
     matopush(["trackEvent", "selectedSuggestion", query, suggestion]);
     matopush(["trackEvent", "candidateSuggestions", suggestions.join("###")]);
+    window.scrollTo(0, 0);
+    document.body.focus();
     router.push({
       pathname: "/recherche",
       query: { q: suggestion }
