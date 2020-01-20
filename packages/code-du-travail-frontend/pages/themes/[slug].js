@@ -15,6 +15,7 @@ import { SearchResults } from "../../src/search/SearchResults";
 import { Layout } from "../../src/layout/Layout";
 import Metas from "../../src/common/Metas";
 import { ThemeBreadcrumbs } from "../../src/common/ThemeBreadcrumbs";
+import { FocusRoot } from "../../src/a11y";
 
 const {
   publicRuntimeConfig: { API_URL }
@@ -50,7 +51,9 @@ class Theme extends React.Component {
         <ThemeBreadcrumbs theme={theme} />
         <Section>
           <Container>
-            <PageTitle>{theme.title}</PageTitle>
+            <FocusRoot>
+              <PageTitle>{theme.title}</PageTitle>
+            </FocusRoot>
             {theme.children && theme.children.length > 0 && (
               <StyledContainer narrow noPadding>
                 {theme.children.map(({ slug, title }) => (

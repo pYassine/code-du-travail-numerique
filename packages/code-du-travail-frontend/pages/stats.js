@@ -12,6 +12,7 @@ import {
 } from "@socialgouv/react-ui";
 
 import { Layout } from "../src/layout/Layout";
+import { FocusRoot } from "../src/a11y";
 
 const About = () => (
   <Layout>
@@ -24,7 +25,9 @@ const About = () => (
     </Head>
     <Section>
       <Container>
-        <PageTitle>Statistiques du code du travail numérique</PageTitle>
+        <FocusRoot>
+          <PageTitle>Statistiques du code du travail numérique</PageTitle>
+        </FocusRoot>
         <Wrapper variant="main">
           <StyledFlatList>
             <Li>

@@ -12,6 +12,7 @@ import {
 } from "@socialgouv/react-ui";
 import { Layout } from "../src/layout/Layout";
 import Metas from "../src/common/Metas";
+import { FocusRoot } from "../src/a11y";
 
 const About = ({ ogImage, pageUrl }) => (
   <Layout>
@@ -23,9 +24,11 @@ const About = ({ ogImage, pageUrl }) => (
     />
     <Section>
       <Container narrow>
-        <PageTitle subtitle="Apprenez-en plus sur notre histoire, notre équipe et nos méthodes">
-          À propos du Code du travail numérique
-        </PageTitle>
+        <FocusRoot>
+          <PageTitle subtitle="Apprenez-en plus sur notre histoire, notre équipe et nos méthodes">
+            À propos du Code du travail numérique
+          </PageTitle>
+        </FocusRoot>
         <Wrapper variant="main">
           <StyledTitle shift={theme.spacings.larger}>
             Qu’est-ce que le Code du travail numérique&nbsp;?

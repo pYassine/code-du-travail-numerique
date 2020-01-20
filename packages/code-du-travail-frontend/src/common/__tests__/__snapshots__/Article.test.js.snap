@@ -164,6 +164,9 @@ exports[`<Article /> should render 1`] = `
     >
       <header
         class="c2 c3"
+        data-next-focus-root="true"
+        style="outline: none;"
+        tabindex="-1"
       >
         <h1
           class="c4"

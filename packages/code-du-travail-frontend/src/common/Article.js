@@ -15,7 +15,13 @@ const Article = ({ subtitle, title, source, date, children }) => {
     <Container>
       <Wrapper variant="main" data-main-content>
         {subtitle && <Subtitle>{subtitle}</Subtitle>}
-        <StyledPageTitle leftStripped shift={theme.spacings.larger}>
+        <StyledPageTitle
+          style={{ outline: "none" }}
+          tabIndex="-1"
+          data-next-focus-root
+          leftStripped
+          shift={theme.spacings.larger}
+        >
           {title}
         </StyledPageTitle>
         <Meta>

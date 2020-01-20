@@ -14,6 +14,7 @@ import {
 
 import { Layout } from "../../src/layout/Layout";
 import Metas from "../../src/common/Metas";
+import { FocusRoot } from "../../src/a11y";
 
 const {
   publicRuntimeConfig: { API_URL }
@@ -41,9 +42,11 @@ class Modeles extends React.Component {
         />
         <Section>
           <Container narrow>
-            <PageTitle>
-              Consultez et téléchargez nos modèles de documents
-            </PageTitle>
+            <FocusRoot>
+              <PageTitle>
+                Consultez et téléchargez nos modèles de documents
+              </PageTitle>
+            </FocusRoot>
             <StyledList>
               {data.hits.hits.map(({ _id, _source }) => (
                 <StyledListItem key={_id}>

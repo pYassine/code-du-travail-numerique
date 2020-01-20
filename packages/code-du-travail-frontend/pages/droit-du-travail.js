@@ -12,6 +12,7 @@ import { Layout } from "../src/layout/Layout";
 import Metas from "../src/common/Metas";
 import Origins from "../src/droit-du-travail/Origins";
 import Hierarchy from "../src/droit-du-travail/Hierarchy";
+import { FocusRoot } from "../src/a11y";
 
 const DroitDuTravail = ({ ogImage, pageUrl }) => (
   <Layout>
@@ -23,7 +24,9 @@ const DroitDuTravail = ({ ogImage, pageUrl }) => (
     />
     <StyledSection>
       <Container>
-        <PageTitle>Le droit du travail, c’est quoi&nbsp;?</PageTitle>
+        <FocusRoot>
+          <PageTitle>Le droit du travail, c’est quoi&nbsp;?</PageTitle>
+        </FocusRoot>
         <FlexContainer>
           <BigBlock>
             <Wrapper>
