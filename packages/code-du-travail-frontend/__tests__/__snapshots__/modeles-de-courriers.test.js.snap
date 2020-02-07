@@ -333,7 +333,7 @@ exports[`<ModelesDeCourriers /> should render 1`] = `
   font-family: "Open Sans",sans-serif;
   vertical-align: middle;
   background-color: #fff;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 0.6rem;
   box-shadow: 0 1rem 2rem rgba(121,148,212,0.2);
   cursor: pointer;
@@ -344,22 +344,20 @@ exports[`<ModelesDeCourriers /> should render 1`] = `
   appearance: none;
 }
 
+.c27[disabled] {
+  color: #9298af;
+  background-color: #e4e8ef;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
 .c27::-ms-expand {
   background-color: transparent;
   border: 0 transparent;
 }
 
-.c27 *::-ms-backdrop,
-.c27 {
+.c27 *::-ms-backdrop {
   padding-right: 1.6rem;
-}
-
-.c27:invalid {
-  border-color: #eb5757;
-}
-
-.c27:disabled {
-  background-color: #e4e8ef;
 }
 
 .c21 {
@@ -1744,7 +1742,7 @@ exports[`<ModelesDeCourriers /> should render 1`] = `
               <h3
                 class="c54 c55"
               >
-                Aidez-nous à améliorer cet outil
+                Participez à l’amélioration du site
               </h3>
               <ul
                 class="sc-fznMnq c56"
@@ -1754,11 +1752,21 @@ exports[`<ModelesDeCourriers /> should render 1`] = `
                 >
                   <a
                     class="c58"
+                    href="/newsletter"
+                  >
+                    Inscrivez-vous à la newsletter
+                  </a>
+                </li>
+                <li
+                  class="c57"
+                >
+                  <a
+                    class="c58"
                     href="https://calendly.com/code-du-travail-numerique/ambassadeur-du-code-du-travail-numerique"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Devenir ambassadeur
+                    Devenez ambassadeur
                   </a>
                 </li>
                 <li
@@ -1770,7 +1778,7 @@ exports[`<ModelesDeCourriers /> should render 1`] = `
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Contribuer sur Github
+                    Contribuez sur Github
                   </a>
                 </li>
                 <li

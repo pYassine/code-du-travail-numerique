@@ -2712,7 +2712,7 @@ exports[`<Outils /> should render 1`] = `
               <h3
                 class="c56 c57"
               >
-                Aidez-nous à améliorer cet outil
+                Participez à l’amélioration du site
               </h3>
               <ul
                 class="sc-fznMnq c58"
@@ -2722,11 +2722,21 @@ exports[`<Outils /> should render 1`] = `
                 >
                   <a
                     class="c60"
+                    href="/newsletter"
+                  >
+                    Inscrivez-vous à la newsletter
+                  </a>
+                </li>
+                <li
+                  class="c59"
+                >
+                  <a
+                    class="c60"
                     href="https://calendly.com/code-du-travail-numerique/ambassadeur-du-code-du-travail-numerique"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Devenir ambassadeur
+                    Devenez ambassadeur
                   </a>
                 </li>
                 <li
@@ -2738,7 +2748,7 @@ exports[`<Outils /> should render 1`] = `
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Contribuer sur Github
+                    Contribuez sur Github
                   </a>
                 </li>
                 <li

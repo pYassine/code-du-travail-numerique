@@ -1,6 +1,6 @@
 # Code-du-travail - Frontend (@cdt/frontend)
 
-Ce dépôt de code contient le frontend du site web du Code du Travail Numérique.
+Ce dépôt de code contient le frontend du site web du Code du travail Numérique.
 
 - Prototype dispo sur : http://master.code-du-travail-numerique.dev.factory.social.gouv.fr/
 

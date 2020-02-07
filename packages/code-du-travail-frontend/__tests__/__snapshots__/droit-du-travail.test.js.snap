@@ -5043,7 +5043,7 @@ exports[`<DroitDuTravail /> should render 1`] = `
               <h3
                 class="c98 c99"
               >
-                Aidez-nous à améliorer cet outil
+                Participez à l’amélioration du site
               </h3>
               <ul
                 class="sc-fznMnq c100"
@@ -5053,11 +5053,21 @@ exports[`<DroitDuTravail /> should render 1`] = `
                 >
                   <a
                     class="c102"
+                    href="/newsletter"
+                  >
+                    Inscrivez-vous à la newsletter
+                  </a>
+                </li>
+                <li
+                  class="c101"
+                >
+                  <a
+                    class="c102"
                     href="https://calendly.com/code-du-travail-numerique/ambassadeur-du-code-du-travail-numerique"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Devenir ambassadeur
+                    Devenez ambassadeur
                   </a>
                 </li>
                 <li
@@ -5069,7 +5079,7 @@ exports[`<DroitDuTravail /> should render 1`] = `
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Contribuer sur Github
+                    Contribuez sur Github
                   </a>
                 </li>
                 <li

@@ -439,6 +439,13 @@ exports[`<FicheContribution /> should render with external content 1`] = `
   appearance: none;
 }
 
+.c57[disabled] {
+  color: #9298af;
+  background-color: #e4e8ef;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
 .c57::-webkit-outer-spin-button,
 .c57::-webkit-inner-spin-button {
   margin: 0;
@@ -2570,7 +2577,7 @@ exports[`<FicheContribution /> should render with external content 1`] = `
                 <h3
                   class="c78 c79"
                 >
-                  Aidez-nous à améliorer cet outil
+                  Participez à l’amélioration du site
                 </h3>
                 <ul
                   class="sc-fznMnq c80"
@@ -2580,11 +2587,21 @@ exports[`<FicheContribution /> should render with external content 1`] = `
                   >
                     <a
                       class="c82"
+                      href="/newsletter"
+                    >
+                      Inscrivez-vous à la newsletter
+                    </a>
+                  </li>
+                  <li
+                    class="c81"
+                  >
+                    <a
+                      class="c82"
                       href="https://calendly.com/code-du-travail-numerique/ambassadeur-du-code-du-travail-numerique"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      Devenir ambassadeur
+                      Devenez ambassadeur
                     </a>
                   </li>
                   <li
@@ -2596,7 +2613,7 @@ exports[`<FicheContribution /> should render with external content 1`] = `
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      Contribuer sur Github
+                      Contribuez sur Github
                     </a>
                   </li>
                   <li
@@ -3192,6 +3209,13 @@ exports[`<FicheContribution /> should render without external content 1`] = `
   appearance: none;
 }
 
+.c57[disabled] {
+  color: #9298af;
+  background-color: #e4e8ef;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
 .c57::-webkit-outer-spin-button,
 .c57::-webkit-inner-spin-button {
   margin: 0;
@@ -5323,7 +5347,7 @@ exports[`<FicheContribution /> should render without external content 1`] = `
                 <h3
                   class="c78 c79"
                 >
-                  Aidez-nous à améliorer cet outil
+                  Participez à l’amélioration du site
                 </h3>
                 <ul
                   class="sc-fznMnq c80"
@@ -5333,11 +5357,21 @@ exports[`<FicheContribution /> should render without external content 1`] = `
                   >
                     <a
                       class="c82"
+                      href="/newsletter"
+                    >
+                      Inscrivez-vous à la newsletter
+                    </a>
+                  </li>
+                  <li
+                    class="c81"
+                  >
+                    <a
+                      class="c82"
                       href="https://calendly.com/code-du-travail-numerique/ambassadeur-du-code-du-travail-numerique"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      Devenir ambassadeur
+                      Devenez ambassadeur
                     </a>
                   </li>
                   <li
@@ -5349,7 +5383,7 @@ exports[`<FicheContribution /> should render without external content 1`] = `
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      Contribuer sur Github
+                      Contribuez sur Github
                     </a>
                   </li>
                   <li
