@@ -102,16 +102,21 @@ const Footer = () => {
               </Category>
               <Category>
                 <StyledHeading isFirst>
-                  Aidez-nous à améliorer cet outil
+                  Participez à l’amélioration du site
                 </StyledHeading>
                 <StyledList>
+                  <StyledListItem>
+                    <Link passHref href="/newsletter">
+                      <StyledLink>Inscrivez-vous à la newsletter</StyledLink>
+                    </Link>
+                  </StyledListItem>
                   <StyledListItem>
                     <StyledLink
                       href="https://calendly.com/code-du-travail-numerique/ambassadeur-du-code-du-travail-numerique"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Devenir ambassadeur
+                      Devenez ambassadeur
                     </StyledLink>
                   </StyledListItem>
                   <StyledListItem>
@@ -120,7 +125,7 @@ const Footer = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Contribuer sur Github
+                      Contribuez sur Github
                     </StyledLink>
                   </StyledListItem>
                   <StyledListItem>
